@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan Your Visit Ubuntu Haven</title>
+  <meta name="description" content="Booking, contact and accessibility information for Ubuntu Haven, presented as a wireframe prototype.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="branding">
+      <h1>Ubuntu Haven</h1>
+      <p>African Resort and Cultural Escape in Pardubice</p>
+    </div>
+
+    <p class="student-note">
+      Web presentation created by CZU students for teaching purposes only.
+    </p>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+        Menu
+      </button>
+      <ul id="primary-menu" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover-pardubice.html">Discover Pardubice</a></li>
+        <li><a href="resort-experience.html">Resort Experience</a></li>
+        <li><a href="events.html">Events and Workshops</a></li>
+        <li><a aria-current="page" href="plan-your-visit.html">Plan Your Visit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="site-main" role="main">
+    <header class="page-header">
+      <h2>Plan your visit</h2>
+      <p class="wireframe-line"></p>
+      <p class="wireframe-line wireframe-line-short"></p>
+    </header>
+
+    <section class="booking-section" aria-label="Booking form">
+      <h3>Book your stay</h3>
+
+      <form class="booking-form wireframe-card" aria-describedby="booking-help">
+        <p id="booking-help" class="wireframe-line" style="max-width:60%;"></p>
+
+        <div class="form-row">
+          <label for="arrival-date">Arrival date *</label>
+          <div class="wireframe-input"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="departure-date">Departure date *</label>
+          <div class="wireframe-input"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="guests">Number of guests *</label>
+          <div class="wireframe-input"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="name">Full name *</label>
+          <div class="wireframe-input"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email *</label>
+          <div class="wireframe-input"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="accessibility">Accessibility needs</label>
+          <div class="wireframe-input" style="height:80px;"></div>
+        </div>
+
+        <button class="btn" type="button">Submit request</button>
+      </form>
+    </section>
+
+    <section class="contact-section" aria-label="Contact and location">
+      <h3>Contact and location</h3>
+
+      <div class="h-card wireframe-card">
+        <p class="wireframe-tag">Contact</p>
+        <p class="wireframe-line"></p>
+        <p class="wireframe-line"></p>
+        <p class="wireframe-line wireframe-line-short"></p>
+      </div>
+
+      <div class="map-placeholder wireframe-card" role="img" aria-label="Map placeholder for resort location">
+        <div class="wireframe-media" style="height:150px;"></div>
+        <p class="wireframe-line wireframe-line-short"></p>
+      </div>
+    </section>
+
+    <section class="accessibility-info afro-czech-bridge" aria-label="Accessibility information">
+      <h3>Accessibility information</h3>
+      <p class="wireframe-line"></p>
+      <p class="wireframe-line"></p>
+      <p class="wireframe-line wireframe-line-short"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>&copy; 2025 Ubuntu Haven concept. Academic prototype for CZU.</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
