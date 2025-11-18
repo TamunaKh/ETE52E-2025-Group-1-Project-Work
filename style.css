@@ -1,0 +1,402 @@
+/* -------------------------------------------------------
+   1. Reset and base
+-------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #111827;
+  background-color: #f9fafb;
+}
+
+a {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -------------------------------------------------------
+   2. Layout helpers
+-------------------------------------------------------- */
+
+.site-header,
+.site-main,
+.site-footer {
+  padding-inline: 1.5rem;
+}
+
+.site-header,
+.site-footer {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-footer {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: none;
+  margin-top: 3rem;
+}
+
+.site-main {
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-block: 2rem 3rem;
+}
+
+.page-header {
+  margin-block-end: 2rem;
+}
+
+/* -------------------------------------------------------
+   3. Typography
+-------------------------------------------------------- */
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #0f172a;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  margin-block: 0.2rem 0.8rem;
+}
+
+/* -------------------------------------------------------
+   4. Skip link and student note
+-------------------------------------------------------- */
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0.5rem;
+  background: #0f766e;
+  color: #ffffff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+}
+
+.student-note {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0.25rem 0 0.5rem;
+}
+
+/* -------------------------------------------------------
+   5. Header and main navigation
+-------------------------------------------------------- */
+
+.site-header {
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-block: 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.branding p {
+  margin: 0.1rem 0 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-toggle {
+  display: none;
+  border: 1px solid #0f766e;
+  background: #ffffff;
+  border-radius: 0.375rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.nav-list a[aria-current="page"] {
+  background-color: #0f766e;
+  color: #ffffff;
+}
+
+/* -------------------------------------------------------
+   6. Hero and home highlights
+-------------------------------------------------------- */
+
+.hero {
+  padding: 2rem 1.25rem;
+  margin-block-end: 2rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #ecfdf5, #f9fafb);
+  border: 1px solid #d1fae5;
+}
+
+.hero p {
+  max-width: 42rem;
+}
+
+.home-highlights .highlight-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-block: 1.5rem 2rem;
+}
+
+.highlight-grid article {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid #e5e7eb;
+}
+
+/* -------------------------------------------------------
+   7. Generic grids used on several pages
+-------------------------------------------------------- */
+
+.region-grid,
+.experience-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-block: 1rem 2rem;
+}
+
+.region-grid article,
+.experience-grid article {
+  background-color: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+}
+
+/* -------------------------------------------------------
+   8. Buttons
+-------------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  background-color: #0f766e;
+  color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus {
+  filter: brightness(0.95);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #0f766e;
+  border: 1px solid #0f766e;
+}
+
+/* -------------------------------------------------------
+   9. Events and microformats
+-------------------------------------------------------- */
+
+.event-list {
+  display: grid;
+  gap: 1.25rem;
+  margin-block: 1rem 2rem;
+}
+
+.vevent {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  padding: 1rem 1.25rem;
+}
+
+/* -------------------------------------------------------
+   10. Booking form and contact section
+-------------------------------------------------------- */
+
+.booking-form {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e5e7eb;
+  max-width: 32rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.9rem;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.45rem 0.55rem;
+  border-radius: 0.375rem;
+  border: 1px solid #d1d5db;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #0f766e;
+  outline-offset: 1px;
+  border-color: #0f766e;
+}
+
+.h-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  padding: 1rem 1.25rem;
+  margin-block: 1rem;
+}
+
+/* Simple map placeholder */
+
+.map-placeholder {
+  background-color: #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+/* -------------------------------------------------------
+   11. Footer
+-------------------------------------------------------- */
+
+.site-footer {
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-block: 1rem 1.5rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* -------------------------------------------------------
+   12. Responsive behaviour
+-------------------------------------------------------- */
+
+/* Tablet and wider */
+
+@media (min-width: 640px) {
+  .site-header {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .hero {
+    padding-inline: 2.5rem;
+  }
+
+  .home-highlights .highlight-grid,
+  .region-grid,
+  .experience-grid,
+  .event-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 900px) {
+  .home-highlights .highlight-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .region-grid,
+  .experience-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .event-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile navigation */
+
+@media (max-width: 639px) {
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+    display: none;
+  }
+
+  .nav-list.is-open {
+    display: flex;
+  }
+}
