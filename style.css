@@ -402,3 +402,54 @@ textarea:focus {
     display: flex;
   }
 }
+
+/* -------------------------------------------------------
+   13. Wireframe silhouettes
+-------------------------------------------------------- */
+
+.wireframe-card {
+  background-color: #ffffff;
+  border-radius: 0.9rem;
+  padding: 1rem 1.25rem;
+  border: 1px dashed #d1d5db;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.wireframe-tag {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.wireframe-media {
+  height: 130px;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #e5e7eb, #f3f4f6);
+}
+
+.wireframe-line {
+  height: 0.6rem;
+  border-radius: 999px;
+  background-color: #e5e7eb;
+  margin: 0.2rem 0;
+}
+
+.wireframe-line-short {
+  max-width: 55%;
+}
+
+.page-header .wireframe-line {
+  max-width: 70%;
+}
+
+.afro-czech-bridge {
+  margin-block: 2rem 0;
+  padding: 1.5rem 1.75rem;
+  border-radius: 0.9rem;
+  background-color: #ffffff;
+  border: 1px dashed #d1d5db;
+}
