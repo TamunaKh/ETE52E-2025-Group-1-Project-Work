@@ -1,0 +1,1480 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.frame .header-section {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1080px;
+  background-color: #f5f5f5;
+}
+
+.frame .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .nav {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 0px;
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 960px);
+  background-color: #ffffff0d;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ffffff4c;
+  backdrop-filter: blur(10px) brightness(100%);
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+}
+
+.frame .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1664px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 32px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .content {
+  justify-content: space-between;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.frame .company-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .logomark {
+  position: relative;
+  width: 42px;
+  height: 48px;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 62.81%;
+  height: 52.30%;
+  top: 6.25%;
+  left: 0;
+}
+
+.frame .vector-2 {
+  position: absolute;
+  width: 61.48%;
+  height: 52.13%;
+  top: 41.62%;
+  left: 38.52%;
+}
+
+.frame .vector-3 {
+  position: absolute;
+  width: 59.96%;
+  height: 54.63%;
+  top: 23.35%;
+  left: 20.30%;
+}
+
+.frame .UBUNTU-HAVEN {
+  position: relative;
+  width: 222.59px;
+  height: 19.06px;
+}
+
+.frame .nav-menu {
+  gap: 48px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #906e31;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.frame .div-wrapper {
+  justify-content: center;
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.frame .div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 915px;
+  align-items: center;
+  gap: 64px;
+  position: absolute;
+  top: 373px;
+  left: calc(50.00% - 441px);
+}
+
+.frame .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -21.00px;
+  margin-right: -21.00px;
+}
+
+.frame .ubuntu-haven-resort {
+  width: fit-content;
+  color: var(--white);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 2.00px;
+  line-height: 25.2px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+}
+
+.frame .p {
+  position: relative;
+  width: 957px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: -2.88px;
+  line-height: 105.6px;
+}
+
+.frame .div-4 {
+  display: flex;
+  flex-direction: column;
+  width: 171px;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .line {
+  position: relative;
+  width: 1px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.frame .div-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame .div-6 {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  width: 160px;
+  height: 160px;
+  background-color: #ffeeb1;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.frame .vector-4 {
+  position: absolute;
+  width: 87.50%;
+  height: 87.50%;
+  top: 6.25%;
+  left: 6.25%;
+}
+
+.frame .arrow-up-right {
+  position: absolute;
+  top: calc(50.00% - 12px);
+  left: calc(50.00% - 12px);
+  width: 24px;
+  height: 24px;
+}
+
+.frame .section {
+  width: 1920px;
+  align-items: center;
+  gap: 8px;
+  padding: 192px 0px 96px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .container-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1568px;
+  align-items: flex-start;
+  gap: 96px;
+  padding: 0px 32px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .div-7 {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-3 {
+  position: relative;
+  width: 897px;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary-01);
+  font-size: 72px;
+  letter-spacing: -1.44px;
+  line-height: 79.2px;
+}
+
+.frame .column-2 {
+  flex-direction: column;
+  width: 480px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  display: flex;
+  position: relative;
+}
+
+.frame .with-all-the {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-700);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.frame .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  border: 1px solid;
+  border-color: var(--primary-02);
+}
+
+.frame .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primary-02);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .arrow-up-right-2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.frame .img-3 {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .room-section {
+  align-items: center;
+  gap: 8px;
+  padding: 128px 0px 96px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.frame .container-3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1568px;
+  align-items: flex-start;
+  gap: 64px;
+  padding: 0px 32px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .row-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .div-wrapper-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-5 {
+  position: relative;
+  width: 768px;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary-01);
+  font-size: 72px;
+  letter-spacing: -1.44px;
+  line-height: 79.2px;
+}
+
+.frame .div-8 {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  border: 1px solid;
+  border-color: var(--gray-300);
+}
+
+.frame .arrow-right-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  border: 1px solid;
+  border-color: var(--primary-01);
+}
+
+.frame .div-9 {
+  display: flex;
+  width: 1711px;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -207.00px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.frame .div-9::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.frame .room-card {
+  width: 480px;
+  align-items: flex-start;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.frame .images {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 560px;
+  background-color: #ffffff;
+}
+
+.frame .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 560px;
+  object-fit: cover;
+}
+
+.frame .content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--gray-800);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .images-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 560px;
+}
+
+.frame .superior-rooms {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--gray-800);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.frame .frame-wrapper {
+  align-items: flex-start;
+  gap: 8px;
+  padding: 96px 0px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div-10 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 982px;
+  background-color: #ffffff;
+}
+
+.frame .image-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 982px;
+  object-fit: cover;
+}
+
+.frame .div-11 {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: calc(50.00% - 327px);
+  left: 848px;
+}
+
+.frame .text-wrapper-8 {
+  position: relative;
+  width: 350px;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 79.2px;
+}
+
+.frame .image-3 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 352px;
+  object-fit: cover;
+}
+
+.frame .massage-sauna {
+  position: relative;
+  width: 350px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 96px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .container-4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1568px;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+  padding: 0px 32px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .row-3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 896px;
+  align-items: center;
+  gap: 48px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .div-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .dining-options-with {
+  position: relative;
+  width: 726px;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary-01);
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: -1.44px;
+  line-height: 79.2px;
+}
+
+.frame .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-700);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.frame .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 16px 24px;
+  border: 1px solid;
+  border-color: var(--primary-02);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 999px;
+}
+
+.frame .line-2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .line-3 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  object-fit: cover;
+}
+
+.frame .vector-5 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.frame .div-13 {
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.frame .div-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 79.2px;
+  white-space: nowrap;
+}
+
+.frame .input {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  backdrop-filter: blur(8px) brightness(100%);
+  -webkit-backdrop-filter: blur(8px) brightness(100%);
+}
+
+.frame .div-15 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff1a;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ffffff29;
+}
+
+.frame .text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .div-16 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-12 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.frame .action-calendar {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  aspect-ratio: 1;
+}
+
+.frame .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  padding: 16px 24px 16px 28px;
+  background-color: #ffffffe6;
+  backdrop-filter: blur(5px) brightness(100%);
+  -webkit-backdrop-filter: blur(5px) brightness(100%);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 999px;
+}
+
+.frame .container-5 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1568px;
+  align-items: flex-start;
+  gap: 88px;
+  padding: 0px 32px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .row-4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-13 {
+  position: relative;
+  width: 608px;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary-01);
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: 79.2px;
+}
+
+.frame .div-17 {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 16px 0px 0px;
+  position: relative;
+}
+
+.frame .text-wrapper-14 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-600);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.frame .card {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.frame .thumbnail {
+  position: relative;
+  width: 480px;
+  height: 588px;
+  background-color: #ffffff;
+}
+
+.frame .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--gray-800);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28.0px;
+}
+
+.frame .image-4 {
+  position: absolute;
+  width: 100%;
+  height: 144.90%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .section-3 {
+  align-items: center;
+  gap: 88px;
+  padding: 96px 0px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .content-3 {
+  flex-direction: column;
+  max-width: 1568px;
+  gap: 48px;
+  padding: 0px 32px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.frame .row-5 {
+  display: flex;
+  flex-direction: column;
+  max-width: 896px;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.frame .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary-02);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-17 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary-01);
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 79.2px;
+}
+
+.frame .text-wrapper-18 {
+  position: relative;
+  width: 718px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-600);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.frame .container-6 {
+  max-width: 1568px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 96px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.frame .row-6 {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--gray-300);
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .company-logo-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 64px 80px 0px;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.frame .column-3 {
+  align-items: center;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.frame .footer-links-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 64px 80px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: var(--gray-300);
+}
+
+.frame .heading {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-500);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.frame .footer-links {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-19 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-800);
+  font-size: 56px;
+  letter-spacing: -1.12px;
+  line-height: 64px;
+}
+
+.frame .text-wrapper-20 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Abhaya Libre-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-800);
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.frame .footer-links-column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 64px 80px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: var(--gray-300);
+}
+
+.frame .text-wrapper-21 {
+  flex: 1;
+  color: var(--gray-800);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+}
+
+.frame .row-7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--gray-300);
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .column-4 {
+  align-items: center;
+  gap: 8px;
+  padding: 48px 80px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.frame .text-wrapper-22 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-500);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.frame .column-5 {
+  align-items: center;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.frame .content-4 {
+  gap: 48px;
+  padding: 48px 80px;
+  flex: 1;
+  flex-grow: 1;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: var(--gray-300);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for semantic HTML refactoring */
+
+.frame .nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.frame .nav-link a,
+.frame .div-wrapper a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.frame .nav-link a:hover,
+.frame .div-wrapper a:hover {
+  opacity: 0.8;
+}
+
+.frame .nav-link a:focus,
+.frame .div-wrapper a:focus {
+  outline: 2px solid #906e31;
+  outline-offset: 2px;
+}
+
+.frame .div-6 {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.frame .div-6:hover {
+  transform: scale(1.05);
+}
+
+.frame .div-6:focus {
+  outline: 2px solid #906e31;
+  outline-offset: 4px;
+}
+
+.frame .button,
+.frame .button-2 {
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+}
+
+.frame .button:hover,
+.frame .button-2:hover {
+  background-color: var(--primary-02);
+  color: var(--white);
+}
+
+.frame .button:focus,
+.frame .button-2:focus {
+  outline: 2px solid var(--primary-02);
+  outline-offset: 2px;
+}
+
+.frame .arrow,
+.frame .arrow-right-wrapper {
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.frame .arrow:hover,
+.frame .arrow-right-wrapper:hover {
+  background-color: var(--gray-100);
+}
+
+.frame .arrow:focus,
+.frame .arrow-right-wrapper:focus {
+  outline: 2px solid var(--primary-02);
+  outline-offset: 2px;
+}
+
+.frame .arrow:disabled,
+.frame .arrow-right-wrapper:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.frame .input {
+  position: relative;
+}
+
+.frame .div-15 input[type="text"],
+.frame .div-15 select {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.frame .div-15 input[type="text"]:focus,
+.frame .div-15 select:focus {
+  outline: 2px solid var(--primary-02);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+.frame .div-15 select {
+  position: relative;
+  z-index: 1;
+}
+
+.frame .div-16 {
+  position: relative;
+}
+
+.frame .button-3 {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.frame .button-3:hover {
+  background-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.frame .button-3:focus {
+  outline: 2px solid var(--primary-02);
+  outline-offset: 2px;
+}
+
+.frame .footer-links a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.frame .footer-links a:hover {
+  color: var(--primary-02);
+}
+
+.frame .footer-links a:focus {
+  outline: 2px solid var(--primary-02);
+  outline-offset: 2px;
+}
+
+.frame .content-4 a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.frame .content-4 a:hover {
+  color: var(--primary-02);
+}
+
+.frame .content-4 a:focus {
+  outline: 2px solid var(--primary-02);
+  outline-offset: 2px;
+}
+
+.frame .footer address {
+  font-style: normal;
+}
+
+.frame .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.frame .content-4 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frame .button,
+  .frame .button-2,
+  .frame .button-3,
+  .frame .div-6,
+  .frame .arrow,
+  .frame .arrow-right-wrapper,
+  .frame .footer-links a,
+  .frame .content-4 a {
+    transition: none;
+  }
+}
