@@ -1,8 +1,9 @@
 :root {
+  /* Color Variables */
   --white: rgb(255, 255, 255);
-  --primary-01: rgba(102, 73, 20, 1);
-  --primary-02: rgba(144, 110, 49, 1);
-  --primary-03: rgba(243, 211, 96, 1);
+  --primary-01: rgba(102, 73, 20, 1); /* Dark Primary */
+  --primary-02: rgba(144, 110, 49, 1); /* Medium Primary */
+  --primary-03: rgba(243, 211, 96, 1); /* Light Primary/Accent */
   --gray-800: rgba(28, 25, 23, 1);
   --gray-700: rgba(68, 64, 60, 1);
   --gray-600: rgba(87, 83, 78, 1);
@@ -13,4 +14,18 @@
   --gray-100: rgba(245, 245, 244, 1);
   --gray-50: rgba(250, 250, 249, 1);
   --background-01: #f5f5f5;
+
+  /* Typography Variables */
+  --font-family-header: "Abhaya Libre", serif;
+  --font-family-body: "Figtree-Regular", serif;
+  --font-family-body-medium: "Figtree-Medium", serif;
+  --font-family-body-semibold: "Figtree-SemiBold", helvetica;
+  
+  /* Heading sizes (example, can be expanded) */
+  --h1-size: 96px;
+  --h2-size: 72px;
+  --h3-size: 56px;
+  --body-xl-size: 20px;
+  --body-lg-size: 18px;
+  --body-md-size: 16px;
 }
